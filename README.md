@@ -24,7 +24,7 @@ pytest tests/ -v
 
 ## Input
 
-A JSON array of raw report strings. See `test_data/reports.json` for 18 deliberately messy examples — lowercase rage, half-thoughts, mixed-language, stack-trace dumps, three-bugs-in-one, security-shaped reports, etc.
+A JSON array of raw report strings. See `test_data/reports.json` for 15 deliberately messy examples: lowercase rage, half-thoughts, mixed-language, stack-trace dumps, three-bugs-in-one, security-shaped reports, etc.
 
 ```json
 [
