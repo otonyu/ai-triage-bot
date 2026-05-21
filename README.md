@@ -1,4 +1,4 @@
-# bug-triage
+# ai-bug-triage
 
 A CLI that transforms raw user bug reports into one of three structured outputs:
 
