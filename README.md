@@ -131,7 +131,6 @@ The LLM does *extraction*. Code does *judgment*. This makes priority decisions e
 ```
 bug-triage/
 ├── README.md
-├── WRITEUP.md              # the half-to-one-page design write-up
 ├── requirements.txt
 ├── src/
 │   ├── cli.py              # argparse entry point
@@ -149,4 +148,4 @@ bug-triage/
 
 - **Model.** Defaults to `claude-sonnet-4-5` for extraction. Capable enough to follow the schema reliably; cheap enough to run on a queue.
 - **Failure handling.** A bad report doesn't crash the batch — failures are emitted as `{"status": "error", ...}` so the rest of the queue processes.
-- **Out of scope.** Dedupe across the batch, Slack/Linear integration, persistence, eval harness. See `WRITEUP.md` for what I'd add next.
+- **Out of scope.** Dedupe across the batch, Slack/Linear integration, persistence, eval harness.
